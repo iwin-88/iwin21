@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,
+.banner{
+    background-color: #0711e3;
+}
+.link p{
+    -webkit-animation: glow 2s infinite;
+    -moz-animation: glow 2s infinite;
+    -o-animation: glow 2s infinite;
+    animation: glow 2s infinite;
+}
+@keyframes glow {
+    0% {
+        -webkit-box-shadow: 0 0 4px #DDD;
+    }
+    50% {
+        -webkit-box-shadow: 0 0 20px #DDD;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 4px #DDD;
+    }
+}
